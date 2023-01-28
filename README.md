@@ -20,17 +20,17 @@ Escolha o gerenciador de pacotes de sua preferência e execute o seguinte comand
 
     $ npm create qwik@latest
 
-        [NPM](https://www.npmjs.com/) é o maior registro de software do mundo. Desenvolvedores de código aberto de todos os continentes usam o npm para compartilhar e emprestar pacotes, e muitas organizações também usam o npm para gerenciar o desenvolvimento privado.
+[NPM](https://www.npmjs.com/) é o maior registro de software do mundo. Desenvolvedores de código aberto de todos os continentes usam o npm para compartilhar e emprestar pacotes, e muitas organizações também usam o npm para gerenciar o desenvolvimento privado.
 
     $ pnpm create qwik@latest
 
-        [PNPM](https://pnpm.io/) é usado para instalar todas as dependências de um projeto.
-        Em um ambiente CI, a instalação falhará se um arquivo de bloqueio estiver presente, mas precisar de uma atualização.
-        Dentro de um espaço de trabalho, o pnpm install instala todas as dependências em todos os projetos. Se você deseja desabilitar esse     comportamento, defina a configuração recursive-install como false.
+[PNPM](https://pnpm.io/) é usado para instalar todas as dependências de um projeto.
+Em um ambiente CI, a instalação falhará se um arquivo de bloqueio estiver presente, mas precisar de uma atualização.
+Dentro de um espaço de trabalho, o pnpm install instala todas as dependências em todos os projetos. Se você deseja desabilitar esse     comportamento, defina a configuração recursive-install como false.
 
     $ yarn create qwik
 
-        [YARN](https://yarnpkg.com/) é um gerenciador de pacotes para o seu código. Ele permite que você use e compartilhe código com outros desenvolvedores de todo o mundo. O Yarn faz isso de forma rápida, segura e confiável para que você nunca precise se preocupar.
+[YARN](https://yarnpkg.com/) é um gerenciador de pacotes para o seu código. Ele permite que você use e compartilhe código com outros desenvolvedores de todo o mundo. O Yarn faz isso de forma rápida, segura e confiável para que você nunca precise se preocupar.
 
 # Criação do projeto
 
@@ -93,10 +93,6 @@ VITE v4.0.1  ready in 515 ms
 > Visite http://localhost:5173/ para explorar o aplicativo.
 # Clonando e Inicializando o projeto
 
- Como foi utilizado para extrair as dependecias, recomendo que instale esse pacote. Após o procedimento.
-
-    $ pnpm i
-
-    $ npm start
+Como foi utilizado para extrair as dependecias, recomendo que instale esse pacote. Após o procedimento.
 
 [seguindo os passos a cima](#executando-em-desenvolvimento)
