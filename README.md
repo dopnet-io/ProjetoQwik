@@ -3,12 +3,15 @@
 Qwik é um novo tipo de framework recuperável (sem JS e sem hidratação), construído para o edge e familiar para desenvolvedores React.
 
 [Stackblitz Qwik + Vite](https://qwik.new/)
+
 [Exemplos de playground](https://qwik.builder.io/examples/reactivity/counter/)
 
 # Pré-Requisitos
 
 [node.js v16](https://nodejs.org/en/download/) ou superior
+
 Seu IDE favorito ([vscode](https://code.visualstudio.com/) recomendado)
+
 Comece a [pensar qwik](https://qwik.builder.io/docs/think-qwik/)
 
 # Execute o Qwik CLI em seu shell
