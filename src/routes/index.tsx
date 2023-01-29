@@ -6,51 +6,51 @@ export default component$(() => {
   return (
     <div>
       <h1>
-        Welcome to Qwik <span class="lightning">⚡️</span>
+        Bem-vindo ao Qwik <span class="lightning">⚡️</span>
       </h1>
 
       <ul>
         <li>
-          Check out the <code>src/routes</code> directory to get started.
+          Confira o diretório <code>src/routes</code> para começar.
         </li>
         <li>
-          Add integrations with <code>npm run qwik add</code>.
+          Adicione integrações com <code>npm run qwik add</code>.
         </li>
         <li>
-          More info about development in <code>README.md</code>
+          Mais informações sobre desenvolvimento em <code>README.md</code>
         </li>
       </ul>
 
-      <h2>Commands</h2>
+      <h2>Comandos</h2>
 
       <table class="commands">
         <tr>
           <td>
             <code>npm run dev</code>
           </td>
-          <td>Start the dev server and watch for changes.</td>
+          <td>Inicie o servidor de desenvolvimento e observe as alterações.</td>
         </tr>
         <tr>
           <td>
             <code>npm run preview</code>
           </td>
-          <td>Production build and start preview server.</td>
+          <td>Criação de produção e início do servidor de visualização.</td>
         </tr>
         <tr>
           <td>
             <code>npm run build</code>
           </td>
-          <td>Production build.</td>
+          <td>Construção de produção.</td>
         </tr>
         <tr>
           <td>
             <code>npm run qwik add</code>
           </td>
-          <td>Select an integration to add.</td>
+          <td>Selecione uma integração para adicionar.</td>
         </tr>
       </table>
 
-      <h2>Add Integrations</h2>
+      <h2>Adicionar integrações</h2>
 
       <table class="commands">
         <tr>
@@ -59,7 +59,7 @@ export default component$(() => {
           </td>
           <td>
             <a href="https://learn.microsoft.com/azure/static-web-apps/overview" target="_blank">
-              Azure Static Web Apps
+              Aplicativos Web Estáticos do Azure
             </a>
           </td>
         </tr>
@@ -69,7 +69,7 @@ export default component$(() => {
           </td>
           <td>
             <a href="https://developers.cloudflare.com/pages" target="_blank">
-              Cloudflare Pages Server
+              Servidor de páginas Cloudflare
             </a>
           </td>
         </tr>
@@ -89,7 +89,7 @@ export default component$(() => {
           </td>
           <td>
             <a href="https://docs.netlify.com/" target="_blank">
-              Netlify Edge Functions
+              Funções de borda do Netlify
             </a>
           </td>
         </tr>
@@ -102,50 +102,50 @@ export default component$(() => {
               href="https://qwik.builder.io/qwikcity/static-site-generation/overview/"
               target="_blank"
             >
-              Static Site Generation (SSG)
+              Geração de Site Estático (SSG)
             </a>
           </td>
         </tr>
       </table>
 
-      <h2>Community</h2>
+      <h2>Comunidade</h2>
 
       <ul>
         <li>
-          <span>Questions or just want to say hi? </span>
+          <span>Dúvidas ou apenas quer dizer oi? </span>
           <a href="https://qwik.builder.io/chat" target="_blank">
-            Chat on discord!
+            Bate papo no discord!
           </a>
         </li>
         <li>
-          <span>Follow </span>
+          <span>Seguir </span>
           <a href="https://twitter.com/QwikDev" target="_blank">
             @QwikDev
           </a>
-          <span> on Twitter</span>
+          <span> no Twitter</span>
         </li>
         <li>
-          <span>Open issues and contribute on </span>
+          <span>Abra questões e contribua em </span>
           <a href="https://github.com/BuilderIO/qwik" target="_blank">
             GitHub
           </a>
         </li>
         <li>
-          <span>Watch </span>
+          <span>Assistir </span>
           <a href="https://qwik.builder.io/media/" target="_blank">
-            Presentations, Podcasts, Videos, etc.
+            Apresentações, Podcasts, Vídeos, etc.
           </a>
         </li>
       </ul>
       <Link class="mindblow" href="/flower/">
-        Blow my mind 🤯
+        Explodir minha mente 🤯
       </Link>
     </div>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Bem-vindo ao Qwik',
   meta: [
     {
       name: 'description',
